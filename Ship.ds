@@ -1,0 +1,227 @@
+DSPK V04.00 Furcadia
+
+
+**Starting up**
+
+**Coming in**
+(0:9) When someone arrives in the Dream,
+    (5:15) move the triggering furre to (50,85), or to someplace nearby if it's occupied.
+**Door control**
+fourway to eroom
+(0:7) When someone moves into position (52,83),
+ (1:94) and timer 1 is still counting down,
+    (5:50) set countdown timer 1 to go off in 5 seconds.
+
+(0:7) When someone moves into position (52,83),
+    (5:50) set countdown timer 1 to go off in 5 seconds,
+    (5:63) place wall 0 at (53,82).
+
+(0:50) When countdown timer 1 goes off,
+    (5:63) place wall 18 at (53,82).
+
+(0:7) When someone moves into position (53,82),
+    (5:15) move the triggering furre to (73,47), or to someplace nearby if it's occupied.
+
+fourway to airlock
+(0:7) When someone moves into position (49,83),
+ (1:94) and timer 2 is still counting down,
+    (5:50) set countdown timer 2 to go off in 5 seconds.
+(0:7) When someone moves into position (49,83),
+    (5:50) set countdown timer 2 to go off in 5 seconds,
+    (5:63) place wall 0 at (46,82).
+(0:50) When countdown timer 1 goes off,
+    (5:63) place wall 18 at (46,82).
+
+(0:7) When someone moves into position (47,82),
+    (5:15) move the triggering furre to (27,74), or to someplace nearby if it's occupied.
+
+fourway to bridge
+(0:7) When someone moves into position (49,87),
+ (1:94) and timer 3 is still counting down,
+    (5:50) set countdown timer 3 to go off in 5 seconds.
+(0:7) When someone moves into position (49,87),
+    (5:50) set countdown timer 3 to go off in 5 seconds,
+    (5:63) place wall 0 at (46,82).
+(0:50) When countdown timer 1 goes off,
+    (5:63) place wall 18 at (46,82).
+
+(0:7) When someone moves into position (47,88),
+    (5:15) move the triggering furre to (21,106), or to someplace nearby if it's occupied.
+
+airlockroom to storage
+(0:7) When someone moves into position (29,67),
+ (1:94) and timer 4 is still counting down,
+    (5:50) set countdown timer 4 to go off in 5 seconds.
+(0:7) When someone moves into position (29,67),
+    (5:50) set countdown timer 4 to go off in 5 seconds,
+    (5:63) place wall 0 at (29,66).
+(0:50) When countdown timer 1 goes off,
+    (5:63) place wall 18 at (29,66).
+
+(0:7) When someone moves into position (28,66),
+    (5:15) move the triggering furre to (44,32), or to someplace nearby if it's occupied.
+
+airlockroom to med/lounge
+(0:7) When someone moves into position (20,75),
+ (1:94) and timer 5 is still counting down,
+    (5:50) set countdown timer 5 to go off in 5 seconds.
+(0:7) When someone moves into position (20,75),
+    (5:50) set countdown timer 5 to go off in 5 seconds,
+    (5:63) place wall 0 at (19,77).
+(0:50) When countdown timer 1 goes off,
+    (5:63) place wall 18 at (19,77).
+
+(0:7) When someone moves into position (19,76),
+    (5:15) move the triggering furre to (53,118), or to someplace nearby if it's occupied.
+
+Med/lounge to airlockroom
+(0:7) When someone moves into position (53,118),
+ (1:94) and timer 6 is still counting down,
+    (5:50) set countdown timer 6 to go off in 5 seconds.
+(0:7) When someone moves into position (53,118),
+    (5:50) set countdown timer 6 to go off in 5 seconds,
+    (5:63) place wall 0 at (55,117).
+(0:50) When countdown timer 1 goes off,
+    (5:63) place wall 18 at (55,117).
+
+(0:7) When someone moves into position (55,117),
+    (5:15) move the triggering furre to (20,75), or to someplace nearby if it's occupied.
+
+
+Storage to Airlockroom
+(0:7) When someone moves into position (45,32),
+ (1:94) and timer 7 is still counting down,
+    (5:50) set countdown timer 7 to go off in 5 seconds.
+(0:7) When someone moves into position (45,32),
+    (5:50) set countdown timer 7 to go off in 5 seconds,
+    (5:63) place wall 0 at (43,34).
+(0:50) When countdown timer 1 goes off,
+    (5:63) place wall 18 at (43,34).
+
+(0:7) When someone moves into position (45,33),
+    (5:15) move the triggering furre to (29,67), or to someplace nearby if it's occupied.
+
+Bridge to fourway
+(0:7) When someone moves into position (21,106),
+ (1:94) and timer 8 is still counting down,
+    (5:50) set countdown timer 8 to go off in 5 seconds.
+(0:7) When someone moves into position (21,106),
+    (5:50) set countdown timer 8 to go off in 5 seconds,
+    (5:63) place wall 0 at (23,105).
+(0:50) When countdown timer 1 goes off,
+    (5:63) place wall 18 at (23,105).
+(0:7) When someone moves into position (23,105),
+    (5:15) move the triggering furre to (49,87), or to someplace nearby if it's occupied.
+
+Airlock room to fourway
+(0:7) When someone moves into position (27,74),
+ (1:94) and timer 9 is still counting down,
+    (5:50) set countdown timer 9 to go off in 5 seconds.
+(0:7) When someone moves into position (27,74),
+    (5:50) set countdown timer 9 to go off in 5 seconds,
+    (5:63) place wall 0 at (28,76).
+(0:50) When countdown timer 1 goes off,
+    (5:63) place wall 18 at (28,76).
+(0:7) When someone moves into position (28,75),
+    (5:15) move the triggering furre to (48,83), or to someplace nearby if it's occupied.
+
+
+
+
+Eroom to fourway
+(0:7) When someone moves into position (73,47),
+ (1:94) and timer 9 is still counting down,
+    (5:50) set countdown timer 9 to go off in 5 seconds.
+(0:7) When someone moves into position (73,47),
+    (5:50) set countdown timer 9 to go off in 5 seconds,
+    (5:63) place wall 0 at (71,49).
+(0:50) When countdown timer 1 goes off,
+    (5:63) place wall 18 at (71,49).
+
+(0:7) When someone moves into position (71,48),
+    (5:15) move the triggering furre to (53,83), or to someplace nearby if it's occupied.
+
+Med/lounge to bathroom
+(0:7) When someone moves into position (54,127),
+ (1:94) and timer 10 is still counting down,
+    (5:50) set countdown timer 10 to go off in 5 seconds.
+(0:7) When someone moves into position (54,127),
+    (5:50) set countdown timer 10 to go off in 5 seconds,
+    (5:63) place wall 0 at (56,129).
+(0:50) When countdown timer 10 goes off,
+    (5:63) place wall 18 at (56,129).
+
+(0:7) When someone moves into position (54,128),
+    (5:15) move the triggering furre to (10,175), or to someplace nearby if it's occupied.
+
+bathroom to Med/lounge
+(0:7) When someone moves into position (10,175),
+ (1:94) and timer 11 is still counting down,
+    (5:50) set countdown timer 11 to go off in 5 seconds.
+(0:7) When someone moves into position (10,175),
+    (5:50) set countdown timer 11 to go off in 5 seconds,
+    (5:63) place wall 0 at (8,174).
+(0:50) When countdown timer 11 goes off,
+    (5:63) place wall 18 at (8,174).
+
+(0:7) When someone moves into position (8,174),
+    (5:15) move the triggering furre to (54,127), or to someplace nearby if it's occupied.
+
+fourway to ladder
+(0:7) When someone moves into position (52,88),
+    (5:15) move the triggering furre to (94,80`u), or to someplace nearby if it's occupied.
+
+ladder to fourway
+(0:7) When someone moves into position (96,80),
+    (5:15) move the triggering furre to (52,87), or to someplace nearby if it's occupied.
+
+
+
+**^^^Door control^^^**
+
+**E-ROOM**
+(0:32) When someone says something with {*trouble} in it,
+    (5:151) set location (78,39) to overlay effect 14.
+    (5:151) set location (78,40) to overlay effect 14.
+    (5:151) set location (80,41) to overlay effect 14.
+(0:32) When someone says something with {*no trouble} in it,
+    (5:151) set location (78,39) to overlay effect 0.
+    (5:151) set location (78,40) to overlay effect 0.
+    (5:151) set location (80,41) to overlay effect 0.
+
+(0:32) When someone says something with {*power on} in it,
+    (5:151) set location (76,37) to overlay effect 115.
+    (5:151) set location (76,38) to overlay effect 115.
+    (5:151) set location (80,42) to overlay effect 115.
+    (5:151) set location (82,43) to overlay effect 115.
+
+(0:32) When someone says something with {*power off} in it,
+    (5:151) set location (76,37) to overlay effect 0.
+    (5:151) set location (76,38) to overlay effect 0.
+    (5:151) set location (80,42) to overlay effect 0.
+    (5:151) set location (82,43) to overlay effect 0.
+
+**E-Room**
+
+**AIRLOCK control**
+
+(0:32) When someone says something with {*airlock open} in it,
+    (5:41) place item 0 at (20,68).
+    (5:41) place item 39 at (16,61)
+    (5:41) place item 39 at (14,62).
+    (5:41) place item 39 at (14,63).
+    (5:151) set location (20,65) to overlay effect 11.
+    (5:151) set location (18,67) to overlay effect 11.
+    (5:151) set location (18,63) to overlay effect 11.
+    (5:151) set location (16,65) to overlay effect 11.
+
+(0:32) When someone says something with {*airlock closed} in it,
+    (5:41) place item 39 at (20,68).
+    (5:41) place item 0 at (16,61)
+    (5:41) place item 0 at (14,62).
+    (5:41) place item 0 at (14,63).
+    (5:151) set location (20,65) to overlay effect 0.
+    (5:151) set location (18,67) to overlay effect 0.
+    (5:151) set location (18,63) to overlay effect 0.
+    (5:151) set location (16,65) to overlay effect 0.
+**AIRLOCK control**
